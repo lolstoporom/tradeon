@@ -1,0 +1,109 @@
+{
+	"manifest_version": 2,
+	"name": "TradeOn Trader Helper",
+	"description": "Расширение для оформления и оживления профиля, получения данных для интеграции в бота, а также автоматического приема входящих обменов. От команды TradeOn.",
+	"version": "1.0.0",
+	"permissions": ["https://steamcommunity.com/*", "https://*.steampowered.com/*", "https://steamladder.com/ladder/groups/", "https://market.csgo.com/*", "storage", "unlimitedStorage", "tabs", "webRequest", "webRequestBlocking", "cookies"],
+	"background": {
+		"scripts": ["js/jquery-3.4.1.min.js", "js/library.js", "js/consts.js", "js/background.js", "js/tradeoffers.js"],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"128": "img/icon.png"
+		}
+	},
+	"icons": {
+		"128": "img/icon.png"
+	},
+	"content_scripts": [{
+		"matches": ["https://steamcommunity.com/openid/login*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/steamAuth.js"]
+	},
+	{
+		"matches": ["https://market.csgo.com/sell"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/market.js"]
+	},
+	{
+		"matches": ["https://market.csgo.com/", "https://market.csgo.com/?welcome"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/marketredir.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/checkprofile.js", "js/scripts/init.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/broadcast/watch/*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/broadcast.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/sharedfiles/filedetails/?id=*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/sharedfile.js"]
+	},
+	{
+		"matches": ["https://store.steampowered.com/explore/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/explore.js"]
+	},
+	{
+		"matches": ["https://store.steampowered.com/app/*", "https://store.steampowered.com/agecheck/app/*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/recommendation.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/id/*/home/", "https://steamcommunity.com/profiles/*/home/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/consts.js", "js/library.js", "js/scripts/post.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/id/*/myactivity/", "https://steamcommunity.com/profiles/*/myactivity/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/like.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/dev/apikey"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/steamapi.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/id/*/tradeoffers/privacy", "https://steamcommunity.com/profiles/*/tradeoffers/privacy"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/tradelink.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/groups/*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/groups.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/id/*/edit", "https://steamcommunity.com/profiles/*/edit"],
+		"js": ["js/jquery-3.4.1.min.js", "js/consts.js", "js/library.js", "js/scripts/profileedit.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/discussions/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/consts.js", "js/library.js", "js/scripts/discussions.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/ogg/*/Avatar/Preview/*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/wrongavatar.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/actions/GameAvatars/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/avatar.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/games/*/Avatar/Preview/*"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/ava.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/id/*/edit/settings", "https://steamcommunity.com/profiles/*/edit/settings"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/privacy.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/chat/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/chat.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/market/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/level.js"]
+	},
+	{
+		"matches": ["https://steamcommunity.com/id/*/gamecards/730/", "https://steamcommunity.com/profiles/*/gamecards/730/"],
+		"js": ["js/jquery-3.4.1.min.js", "js/library.js", "js/scripts/levelup.js"]
+	}
+]
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a82f67d5-532a-4eff-8c12-36548e418afd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/js/library.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/scripts/profileedit.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/scripts/groups.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/background.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/scripts/checkprofile.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/scripts/levelup.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/settings.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/scripts/init.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1cH9ocamINBsv2LjKhcQfmTsd0b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a82f67d5-532a-4eff-8c12-36548e418afd" name="Default Changelist" comment="" />
+      <created>1590174827070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590174827070</updated>
+      <workItem from="1590174828207" duration="48729000" />
+      <workItem from="1590348741785" duration="21203000" />
+      <workItem from="1590565418993" duration="1446000" />
+      <workItem from="1590602807900" duration="1235000" />
+      <workItem from="1591219674208" duration="7048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="647" y="250" key="run.anything.popup" timestamp="1590249256796">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="647" y="250" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1590249256796" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1591245656286">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1591245656286" />
+  </component>
+</project>
