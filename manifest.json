@@ -3,7 +3,7 @@
 	"name": "TradeOn Trader Helper",
 	"description": "Расширение для оформления и оживления профиля, получения данных для интеграции в бота, а также автоматического приема входящих обменов. От команды TradeOn.",
 	"version": "1.0.0",
-	"permissions": ["https://steamcommunity.com/*", "https://*.steampowered.com/*", "https://steamladder.com/ladder/groups/", "https://market.csgo.com/*", "storage", "unlimitedStorage", "tabs", "webRequest", "webRequestBlocking", "cookies"],
+	"permissions": ["https://steamcommunity.com/*", "https://*.steampowered.com/*", "https://steamladder.com/ladder/groups/", "https://market.csgo.com/*", "storage", "unlimitedStorage", "tabs", "webRequest", "webRequestBlocking"],
 	"background": {
 		"scripts": ["js/jquery-3.4.1.min.js", "js/library.js", "js/consts.js", "js/background.js", "js/tradeoffers.js"],
 		"persistent": true
